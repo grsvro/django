@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "gorisaburo"
+name = "django-tutorial"
 version = "0.1.0"
 description = ""
 authors = ["grsvro <gakoyo725@gmail.com>"]
