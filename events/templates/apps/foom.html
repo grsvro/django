@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'apps/style.css' %}">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>30秒で作れる！カンタン出欠表</h1>
+    <hr>
+    <div class="box">
+        <div class="box1">
+            <h2>イベント名</h2>
+            <div>
+                <input class="input_box" type="text">
+            </div>
+            <h2>メモ（任意）</h2>
+            <textarea name="" id=""></textarea>
+        </div>
+        <div class="box2">
+            <h2>日付候補</h2>
+            <p>カレンダーをクリックすると日付候補に日付が入ります。</p>
+            <div class="rei">
+                <div>
+                    <p>例</p>
+                </div>
+                <div>
+                    <p>8/7(月) 19:00~</p>
+                    <p>8/8(火) 20:00~</p>
+                </div>
+            </div>
+            <textarea name="" id=""></textarea>
+        </div>
+        <div class="box3">
+            <p>
+                <input type="checkbox" name="" id="">
+                日付の後に時刻を追加する
+            </p>
+            <div>
+                <input class="input_box" type="text">
+            </div>
+        </div>
+    </div>
+    <p>利用規約に同意のうえ、</p>
+    <input type="submit">
+</body>
+
+</html>
